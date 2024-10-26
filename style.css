@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+.lp1 {
+    height: 100vh;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.lp2 {
+	 height: 100vh;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.lp3 {
+	 height: 100vh;
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.lp4 {
+	 height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.lp5 {
+	height: 100vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.lp6 {
+    height: 100vh;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.eu_redondo {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.eu_redondo_cr {
+	 width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.eu_redondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.eu_redondo_cr img {
+    width: 100%;
+	 height: 100%;
+	 object-fit: cover;
+}
+
+.blz {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+
+.meio {
+	width: 700px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	align-items: center;
+}
+
+.meio2 {
+    width: 550px;
+	margin: auto;
+    padding: 10px;
+}
+
+.fotoca {
+	width: 250px;
+	height: 200px;
+	float: left;
+}
+
+.in_center {
+	width: 700px;
+	margin: auto;
+}
+
+.in_center2 {
+    width: 1000px;
+    margin: auto;
+}
+
+.pd {
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+.block_I {
+    width: 500px;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+
+.block_III {
+    width: 500px;
+    margin: auto;
+    float: right;
+    text-align: center;
+}
+
+.alg {
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    background-color: black;
+}
+
+.menu_tbl {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.active {
+    height: 25px;
+    margin: auto;
+    background-color: red;
+}
+
+.wt {
+    color: white;
+}

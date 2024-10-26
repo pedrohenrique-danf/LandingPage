@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a {
+            color: white;
+        }
+    </style>
+</head>
+<body style="margin: 0;">
+    <div class="menu">
+        <table border="0" class="menu_tbl">
+            <tbody>
+                <tr>
+                    <td>&nbsp;<u><a style="color: white;" href="./index.html" target="_self" rel="interno">Landing Page</a></u>&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <td>&nbsp;<u><a style="color: white;" href="./p_index.html" target="_self" rel="interno">Página principal</a></u>&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <td>&nbsp;<u><a style="color: white;" href="cr_index.html" target="_self" rel="interno">Currículo</a></u>&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <td>&nbsp;<u><a style="color: white;" href="g_index.html" target="_self" rel="interno">GitHub</a></u>&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <td>&nbsp;<u><a style="color: white;" href="s_index.html" target="_self" rel="interno">Serviços</a></u>&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <td class="active">&nbsp;<u><a style="color: white;" href="ct_index.html" target="_self" rel="interno">Contato</a></u>&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="lp6">
+        <h1><u>Seja bem-vindo(a) a <br> página da inserção de dados!</u></h1>
+    </div>
+    <div class="meio2">
+        <h2>Interessado? Insira aqui os seus dados!</h2>
+        <br>
+        <label for="">Nome completo:</label>
+        <input type="text" name="nome_usuario" id="nome_usuario01" size="57" maxlength="30" value="" placeholder="Digite seu nome" required>
+        <br><br>
+        <label for="tel">Telefone:</label>
+        <input type="tel" name="tel" id="tel" size="64" placeholder="ex.: (27) 99999-9999">
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="ex.: abcdefgh@yahoo.com" size="66"><br><br>
+        <label for="">Pessoa física ou jurídica?</label>
+        <br>
+        <br>
+        <input type="checkbox" name="fisica" value="fisica"> Física
+        <br>
+        <input type="checkbox" name="juridica" value="juridica"> Jurídica
+        <br>
+        <p>Qual seria um melhor horário para contato?</p>
+        <label for="">Selecione:</label>
+        <select name="horários" size="1">
+            <option value="">&nbsp;</option>
+            <option value="manha">07:00 - 11:00</option>
+            <option value="tarde">12:00 - 17:00</option>
+            <option value="noite">18:00 - 22:00</option>
+        </select>
+        <p>Dos serviços oferecidos, qual gostaria de contratar?</p>
+        <label for="">Selecione:</label>
+        <select name="horários" size="1">
+            <option value="">&nbsp;</option>
+            <option value="I">Página estática</option>
+            <option value="II">Página dinâmica</option>
+            <option value="III">Página super avançada</option>
+        </select>
+        <br>
+        <p>Caso queira, deixe abaixo uma breve descrição sobre as suas expectativas com os serviços:</p>
+        <textarea name="comentário" cols="70" rows="10" placeholder="Escreva aqui um comentário" readonly></textarea>
+        <br><br>
+        <input type="button" value="Enviar">
+        <br><br>
+        <hr>
+    </div>
+</body>
+</html>
